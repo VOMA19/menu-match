@@ -1,4 +1,5 @@
-# Logs
+# Node.JS & Logs
+node_modules/
 logs
 *.log
 npm-debug.log*
@@ -7,16 +8,24 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
+# Build & Local
 dist
 dist-ssr
 *.local
+
+# Windows
+[Dd]esktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
 .idea
-.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
